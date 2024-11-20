@@ -1,0 +1,53 @@
+<html> 
+ <head> 
+    <script type="text/javascript"> 
+         function okno_zamknij_siejka() 
+             { 
+                     window.close() 
+             } 
+
+      </script> 
+ </head> 
+<body> 
+    <form> 
+         <textarea name="siejka" cols="120" rows="55" readonly> 
+
+            <!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <br> 
+    Programowanie obiektowe. <br>
+    Obiekt to samochod<br>
+    marka:<br>
+    model<br>
+    cena<br>
+    metoda: samochod_wyswietl_Azizau<br>
+    nowe pole to maksymalna_predkosc<br>
+    nowe metoda to samochod_pokaz_Azizau();<br> 
+    <script type="text/javascript">
+ var samochod = {
+    marka: 'BMW',
+    model: 'M3',
+    cena: '25000 euro',
+            samochod_wyswietl_Azizau: function()
+            {
+ document.write(this.marka + ' ' + this.model+this.cena);
+            }
+        }
+        samochod.samochod_wyswietl_Azizau();
+        samochod.maksymalna_predkosc = 350;
+        samochod.samochod_pokaz_Azizau = function ()  {alert('maksymalna_predkosc: ' + this.maksymalna_predkosc)};
+        samochod.samochod_pokaz_Azizau();
+</script>
+</body>
+</html>
+
+         </textarea> 
+        </form> 
+        <input type="button" value="zamknij okno" onclick="okno_zamknij_siejka()"/> 
+        <script type="text/javascript"> 
+        </script> 
+        </body> 
+        </html> 
